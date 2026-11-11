@@ -1,61 +1,148 @@
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #BD8ABB;
-            color: #333333;
-            line-height: 1.7;
-        }
+ /* ==============================
+   GENERAL PAGE STYLING
+================================= */
 
-        header {
-            background-color: #683B67;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F4EF;
+    color: #333333;
+    line-height: 1.7;
+}
 
-        nav {
-            background-color: #BD8ABB;
-            padding: 15px 20px;
-            text-align: left;
-        }
 
-        nav a {
-            color: #683B67;
-            text-decoration: none;
-            margin-right: 25px;
-            font-weight: 600;
-        }
+/* ==============================
+   HEADER
+================================= */
 
-        nav a:hover {
-            text-decoration: underline;
-        }
+header {
+    background-color: #49344F;
+    color: #FFFFFF;
+    padding: 40px 20px;
+    text-align: center;
+}
 
-        main {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px;
-            border-radius: 12px;
-            background: transparent;
-                }
+header h1 {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 
-        h1 {
-            color: #683B67;
-            font-size: 42px;
-            font-weight: bold;
-        }
+header p {
+    color: #E8DFE9;
+    margin-top: 0;
+}
 
-        h2 {
-            color: #683B67;
-            font-size: 30px;
-            font-weight: bold;
-        }
 
-        h3 {
-            color: #683B67;
-            font-size: 22px;
-            font-weight: normal;
-        }
+/* ==============================
+   NAVIGATION
+================================= */
 
-        header h1 {
-            color: white;
-        }
+nav {
+    background-color: #F7F4EF;
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #D8CDD9;
+}
+
+nav a {
+    color: #49344F;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #657C6B;
+    text-decoration: underline;
+}
+
+
+/* ==============================
+   MAIN CONTENT
+================================= */
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    background: transparent;
+}
+
+
+/* ==============================
+   HEADINGS
+================================= */
+
+h1 {
+    color: #49344F;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #49344F;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #49344F;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+
+/* ==============================
+   LINKS
+================================= */
+
+a {
+    color: #657C6B;
+}
+
+a:hover {
+    color: #49344F;
+}
+
+
+/* ==============================
+   IMAGES
+================================= */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* ==============================
+   HIGHLIGHT PANELS
+================================= */
+
+.highlight {
+    background-color: #B9A4BD;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+
+/* ==============================
+   FOOTER
+================================= */
+
+footer {
+    background-color: #49344F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #FFFFFF;
+}
