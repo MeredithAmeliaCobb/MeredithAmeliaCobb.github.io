@@ -146,3 +146,25 @@ footer {
 footer a {
     color: #FFFFFF;
 }
+
+height: auto;
+    border-radius: 10px;
+}
+
+/* HOME IMAGE */
+
+.home-image {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #B9A4BD;
+}
+
+/* RESEARCH IMAGES */
+
+.research-image {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #B9A4BD;
+}
