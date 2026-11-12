@@ -168,3 +168,51 @@ height: auto;
     border-radius: 10px;
     border: 2px solid #B9A4BD;
 }
+
+
+/* ABOUT PAGE INTRODUCTION */
+.home-intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    min-height: 400px;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.intro-text h2 {
+    font-size: 36px;
+}
+
+.intro-text h3 {
+    font-size: 21px;
+    line-height: 1.6;
+}
+
+.intro-photo {
+    flex: 1;
+    text-align: right;
+}
+
+.intro-photo img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* MOBILE DISPLAY */
+@media (max-width: 650px) {
+    .home-intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro-photo {
+        text-align: center;
+    }
+}
