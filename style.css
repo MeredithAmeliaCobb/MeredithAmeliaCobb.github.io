@@ -269,3 +269,102 @@ height: auto;
         height: auto;
     }
 }
+
+
+/* TEACHING PAGE */
+
+/* INTRODUCTION */
+.teaching-intro {
+    margin-bottom: 50px;
+}
+
+/* TEACHING PHILOSOPHY */
+.teaching-philosophy {
+    margin: 50px 0;
+}
+
+.teaching-principles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.teaching-card {
+    background-color: #F7F4EF;
+    border: 1px solid #D8CDD9;
+    border-top: 4px solid #86658B;
+    border-radius: 10px;
+    padding: 22px;
+}
+
+.teaching-card h3 {
+    font-size: 21px;
+    color: #49344F;
+    margin-top: 5px;
+}
+
+.teaching-card p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* TEACHING EXPERIENCE */
+.teaching-experience {
+    margin: 50px 0;
+}
+
+.experience-item {
+    border-left: 3px solid #B9A4BD;
+    padding: 5px 0 10px 25px;
+    margin: 30px 0;
+}
+
+.experience-item h3 {
+    color: #49344F;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.experience-item h4 {
+    color: #657C6B;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+/* ADDITIONAL SECTIONS */
+.beyond-textbook,
+.mentoring {
+    margin: 50px 0;
+}
+
+/* CLOSING SECTION */
+.teaching-closing {
+    background-color: #F7F4EF;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 50px 0 20px 0;
+    text-align: center;
+    border: 1px solid #D8CDD9;
+}
+
+.teaching-closing h2 {
+    color: #49344F;
+}
+
+/* MOBILE DISPLAY */
+@media (max-width: 700px) {
+
+    .teaching-principles {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-item {
+        padding-left: 15px;
+    }
+
+    .teaching-closing {
+        padding: 20px;
+    }
+
+}
